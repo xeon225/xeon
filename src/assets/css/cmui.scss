@@ -1,0 +1,68 @@
+@import "variables";
+@import "lib/function";
+@import "base/normalize";
+@import "base/baseIcon";
+@import "base/layout";
+@import "base/type";
+@import "base/button";
+@import "base/badge";
+@import "base/border";
+// @import "base/form";
+@import "base/animate";
+@import "base/listGroup";
+@import "ui/notice";
+// @import "ui/mask";
+@import "ui/popup";
+// @import "vueAnimate/index";
+
+// @import "effect/hover";
+$time:.5s;
+html{
+	background:#fafafa;
+	color:#949494;
+}
+.content{
+	max-width:1170px;
+	margin:60px auto 0;
+	.logo{
+		width:270px;
+	}
+	.iconList{
+		width:32px;
+		height:32px;
+		border:1px solid currentColor;
+	}
+}
+.theme_1{
+	.colorC{
+		color:#192b3d;
+	}
+	.bgC{
+		background:#192b3d;
+	}
+}
+.theme_2{
+	.colorC{
+		color:#2574a9;
+	}
+	.bgC{
+		background:#2574a9;
+	}
+}
+.theme_3{
+	
+}
+.content{
+	@media screen and (min-width: 751px) and (max-width:950px) {
+		
+	}
+	@media screen and (max-width: 750px) {
+		
+	}
+	@media screen and (max-width: 512px) {
+
+	}
+}
+
+
+
